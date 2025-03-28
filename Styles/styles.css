@@ -3,7 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(./img/backgroud.png);
+
+    background-color: #a90a7f;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #a90a7f 37px ), repeating-linear-gradient( #59062d55, #59062d );
+    
     color: #333;
     background-size: cover;
     background-repeat: no-repeat;
