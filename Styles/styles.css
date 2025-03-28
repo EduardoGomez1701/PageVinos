@@ -4,9 +4,9 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: #a90a7f;
+    background-color: #4a0442f8;
     opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #a90a7f 37px ), repeating-linear-gradient( #59062d55, #59062d );
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #4a0442f8 37px ), repeating-linear-gradient( #5f098755, #5f0987 );    
     
     color: #333;
     background-size: cover;
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #811263;
+    background-color: #4a0442f8;
 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -156,7 +156,7 @@ body {
 /* Footer Styles */
 .footer {
     text-align: center;
-    background-color: #811263;
+    background-color: #4a0442f8;
 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
