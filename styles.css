@@ -3,29 +3,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
-    background-color: #4a0442f8;
-    opacity: 1;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #4a0442f8 37px), repeating-linear-gradient(#5f098755, #5f0987);
-
+    background-image: url(img/backgroud.png);
     color: #333;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+/* Estilos para el fondo*/
+
+
 /* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4a0442f8;
+    background-color: #811263;
 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     margin: 5px;
 
-    padding: 10px;
+    padding: 10px ;
     color: #fff;
 }
 
@@ -51,56 +50,6 @@ body {
 
 .navbar a:hover {
     text-decoration: underline;
-}
-
-/* Estilos scroller */
-.scroller {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1rem 0;
-}
-
-.scroller-inner {
-    display: inline-flex;
-    gap: 2rem;
-    animation: scroll 15s linear infinite;
-}
-
-.scroller-item {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.scroller-item img {
-    height: 40px;
-    width: auto;
-    filter: brightness(0) invert(1);
-}
-
-/* duplicate content for seamless looping*/
-.scroller-inner ::after {
-    content: attr(data-content);
-    display: inline-flex;
-    gap: 2rem;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
 }
 
 /* Contenedor de las tarjetas */
@@ -183,7 +132,7 @@ body {
 .contact label {
     font-size: 16px;
     font-style: bold;
-
+    
 }
 
 .contact input,
@@ -206,7 +155,7 @@ body {
 /* Footer Styles */
 .footer {
     text-align: center;
-    background-color: #4a0442f8;
+    background-color: #811263;
 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
@@ -226,3 +175,5 @@ body {
 .footer .social-links a:hover {
     text-decoration: underline;
 }
+
+
